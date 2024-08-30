@@ -1,26 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
+    <title>NJCID</title> 
+    <link rel="stylesheet" href="home.css">
+   </head>
 <body>
-    <h1>The Nigerian Judicial System</h1>
-    <div class="input">
-        <label for="court-type">Type of court</label>
-        <input type="text" name="court-type" id="court-type" placeholder="High, Appeal, Supreme">
-    </div>
-    <div class="input">
-        <label for="case-type">Type of case</label>
-        <input type="text" name="case-type" id="case-type">
-        
-    </div>
-    <!-- needs modification case&year-->
-    <div class="input">
-        <label for="password">Specific Case of Interest</label>
-        <input type="password" name="password" id="password">
-    </div>
-    
+  <div class="wrapper">
+    <h2>The Nigerian Judicial System</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Type of court" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Type of Case" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Specific case of Interest" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Lawyers" required>
+      </div>
+      
+      <div class="input-box">
+        <input type="password" placeholder="Judicial Judgement" required>
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Evidences" required>
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Case in Support" required>
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Case in Contrast" required>
+      </div>
+      <div class="input-box button">
+        <input type="Submit" value="Submit">
+      </div>
+      <div class="text">
+      </div>
+    </form>
+  </div>
 </body>
 </html>

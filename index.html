@@ -1,27 +1,35 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>NJCID</title> 
     <link rel="stylesheet" href="index.css">
-    <title>New Folder</title>
-</head>
-<body>
-    <h1>The Nigerian Judicial System</h1>
-    <div class="input">
-        <label for="name">Judge's Name</label>
-        <input type="text" name="name" id="name">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>The Nigerian Judicial System</span></div>
+        <form action="home.html">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Judge's Name" >
+          </div>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="password" placeholder="Judge's NJCID" >
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" >
+          </div>
+          <div class="row button">
+            <a href="./home.html"><input type="submit" value="Login"></a>
+          </div>
+        </form>
+      </div>
     </div>
-    <div class="input">
-        <label for="njcid">Judge's NJCID</label>
-        <input type="text" name="njcid" id="njcid">
-        
-    </div>
-    <div class="input">
-        <label for="password">Judge's Password</label>
-        <input type="password" name="password" id="password">
-    </div>
-    <a href="./home.html"><button type="submit">Submit</button></a>
-    
-</body>
+  </body>
 </html>
